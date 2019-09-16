@@ -15,6 +15,7 @@
 		0E043525232FEF850036A090 /* APIComm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E043524232FEF850036A090 /* APIComm.swift */; };
 		0E043527232FF12F0036A090 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E043526232FF12F0036A090 /* Endpoints.swift */; };
 		0E04352923304CE30036A090 /* TopGainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04352823304CE30036A090 /* TopGainViewController.swift */; };
+		0E04352B23304E9C0036A090 /* TopActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E04352A23304E9C0036A090 /* TopActiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0E043524232FEF850036A090 /* APIComm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIComm.swift; sourceTree = "<group>"; };
 		0E043526232FF12F0036A090 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
 		0E04352823304CE30036A090 /* TopGainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopGainViewController.swift; sourceTree = "<group>"; };
+		0E04352A23304E9C0036A090 /* TopActiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopActiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				0E04352823304CE30036A090 /* TopGainViewController.swift */,
+				0E04352A23304E9C0036A090 /* TopActiveViewController.swift */,
 				0E04350E232FEBF60036A090 /* AppDelegate.swift */,
 				0E043514232FEBF60036A090 /* Main.storyboard */,
 				0E043517232FEBF70036A090 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 				0E04350F232FEBF60036A090 /* AppDelegate.swift in Sources */,
 				0E04352923304CE30036A090 /* TopGainViewController.swift in Sources */,
 				0E043527232FF12F0036A090 /* Endpoints.swift in Sources */,
+				0E04352B23304E9C0036A090 /* TopActiveViewController.swift in Sources */,
 				0E043523232FECC10036A090 /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
