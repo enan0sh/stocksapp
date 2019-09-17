@@ -9,17 +9,15 @@
 import Foundation
 
 class Company {
-    let symbol: String?
-    let name: String?
+    var symbol: String?
+    var name: String?
     var sector: String?
-    var currentStockValue: Double?
-    var weeklyStockValue: [Double]?
+    var weeklyStockValue: [dateAndValue]?
     
-    init(_ symbol:String, name:String, sector:String, currentStockValue:Double, weeklyStockValue:[Double]) {
+    init(_ symbol:String, name:String, sector:String, weeklyStockValue:[dateAndValue]) {
         self.symbol = symbol
         self.name = name
         self.sector = sector
-        self.currentStockValue = currentStockValue
         self.weeklyStockValue = weeklyStockValue
     }
     
@@ -27,5 +25,9 @@ class Company {
         self.symbol = symbol
         self.name = name
     }
-    
+}
+
+struct dateAndValue {
+    var date: String
+    var value: Double
 }
